@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  margin: 2em;
+  background: url("https://images.unsplash.com/photo-1546449510-c92b2aeb79d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80");
+}
+
+@media (max-width: 460px) {
+  body {
+    margin: 1em;
+  }
+}
+
+main {
+  background: rgba(10,10,10,0.8);
+  padding: 1.5em;
+  border-radius: 20px;
+  font-family: 'Source Sans Pro';
+  color: white;
+}
+
+#headtitle {
+  margin: 1.5em;
+  text-align: center;
+}
+
+#title {
+  font-size: 50px;
+  margin: 0;
+}
+
+#img-div {
+  float: right;
+  margin: 50px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+li {
+  padding: 0.5em;
+}
+
+#read-more {
+  padding: 1.5em;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+a:visited {
+  color: lightblue;
+}
